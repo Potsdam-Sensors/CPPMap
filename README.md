@@ -26,7 +26,7 @@ void setup() {
   for (std::aloneMap<char,char>::iterator it=exampleMap.begin(); it!=exampleMap.end(); ++it){
   Serial.print(it->first);
   Serial.print(" : ");
-  Serial.println(it-second);
+  Serial.println(it->second);
   }
 }
 
